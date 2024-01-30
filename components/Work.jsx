@@ -16,7 +16,7 @@ const projectData = [
         name: 'Moje aktuálne portfólio',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, laudantium?',
         link: '/',
-        github: 'https://github.com/DawidTu',
+        github: 'https://github.com/DawidTu/portfolio',
     },
     {
         image: '/work/2.png',
@@ -32,7 +32,7 @@ const projectData = [
         name: 'Moje prvé skušobné portfólio',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, laudantium?',
         link: '/',
-        github: 'https://github.com/DawidTu',
+        github: 'https://github.com/DawidTu/first-portfolio',
     },
     {
         image: '/work/4.png',
