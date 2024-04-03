@@ -131,7 +131,7 @@ const About = () => {
     };
 
   return (
-    <section className="py-16 xl:h-[868px] pb-12 xl:py24">
+    <section className="h-screen 2xl:h-[868px] my-20">
         <div className="container mx-auto">
             <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">O mne</h2>
             <div className="flex flex-col xl:flex-row">
@@ -144,7 +144,7 @@ const About = () => {
                 </div>
                 <div className="flex-1 mx-auto">
                     <Tabs defaultValue="personal">
-                        <TabsList>
+                        <TabsList className="inline-block text-center">
                             <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>Informácie o mne</TabsTrigger>
                             <TabsTrigger className='w-[162px] xl:w-auto' value='qualification'>Kvalifikácia</TabsTrigger>
                             <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>Zručnosti</TabsTrigger>
@@ -170,7 +170,7 @@ const About = () => {
                                     <div className="flex flex-col gap-y-2">
                                         <div className="text-primary">Jazykové zručnosti</div>
                                         <div className="border-b border-border"></div>
-                                        <div>Anglicky, Nemecky</div>
+                                        <div className="flec flex-col"><p>Slovensky - rodný jazyk</p><p>Anglicky - B1</p><p>Česky - C1</p></div>
                                     </div>
                                 </div>
                             </TabsContent>

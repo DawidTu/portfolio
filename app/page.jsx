@@ -33,7 +33,7 @@ export default function Home() {
   
   
   return (
-    <main>
+    <main className='border w-screen'>
       <AnimatePresence mode='wait'>
         {isLoading && <Preloader />}
       </AnimatePresence>
