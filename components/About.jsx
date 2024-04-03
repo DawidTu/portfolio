@@ -137,7 +137,7 @@ const About = () => {
             <div className="flex flex-col xl:flex-row">
                 <div className="hidden xl:flex flex-1 relative">
                     <DevImg
-                    containerStyles='ml-12 bg-about_shape_light dark:bg-about_shape_dark w-[345px] h-[505px] bg-no-repeat relative' 
+                    containerStyles='ml-12 w-[345px] h-[505px] bg-no-repeat relative' 
                     imgSrc='/hero/developer.png'
                     imageStyles='rounded-xl'
                     />

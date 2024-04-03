@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 const icons = [
     {
-        path: 'https://www.linkedin.com/in/david-tuma-702405273',
+        path: 'https://www.linkedin.com/in/d%C3%A1vid-tuma-702405273',
         name: <RiLinkedinFill/>,
     },
     {
