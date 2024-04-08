@@ -47,13 +47,13 @@ const projectData = [
 const Work = () => {
 
   return ( 
-    <section className="relative mb-16 xl:mb-48">
+    <section className="sm:top-[34rem] md:top-0 relative xl:mb-48">
         <div className="container mx-auto">
             <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
                 <h2 className="section-title mb-4">Posledný projekt</h2>
-                <p className="subtitle mb-8 mr-6">
+                <p className="subtitle  mb-8 mr-6">
                     Postavil som rôzne rôzne projekty, aby vyhovovali rôznym aspektom podnikania klienta. Ak chcete vidieť viac ukážok mojej práce, 
-                    ako sú tie, ktoré sú prezentované na tejto stránke,<span className="text-white"> kontaktujte ma!</span></p>
+                    ako sú tie, ktoré sú prezentované na tejto stránke,<span className="dark:text-white text-black"> kontaktujte ma!</span></p>
                 <Link href='/projects'>
                     <Button>Všeky projekty</Button>
                 </Link>

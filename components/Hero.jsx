@@ -68,9 +68,9 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <p className="subtitle absolute right-3 bottom-24 rotate-90 hidden md:block">Skrolujte</p>
-            <div className="hidden md:block absolute right-9 bottom-[4.5rem] animate-bounce">
-                <RiArrowDownSLine className="text-2xl text-primary"/>
+            <p className="subtitle absolute right-3 bottom-16 rotate-90 hidden md:block">Skrolujte</p>
+            <div className="hidden md:block absolute right-[39px] bottom-2 animate-bounce">
+                <RiArrowDownSLine className="text-2xl subtitle"/>
             </div>
         </div>
     </section>

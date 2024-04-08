@@ -40,6 +40,15 @@ const projectData = [
     link: "/",
     github: "https://github.com/DawidTu",
   },
+  {
+    image: "/work/5.png",
+    category: "next js",
+    name: "Admin Dshboard",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, laudantium?",
+    link: "/",
+    github: "https://github.com/DawidTu",
+  },
 ];
 const uniqueCategries = [
   "všetky projekty",
@@ -57,7 +66,7 @@ const Projects = () => {
   });
 
   return (
-    <section className="min-h-screen pt-12">
+    <section className="min-h-screen py-12">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           Moje Projekty

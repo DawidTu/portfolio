@@ -6,37 +6,37 @@ import About from '@/components/About';
 import Services from '@/components/Services';
 import Work from '@/components/Work';
 import Cta from '@/components/Cta';
-import Preloader from '../components/Preloader';
+// import Preloader from '../components/Preloader';
 
 export default function Home() {
 
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default;
-        const locomotiveScroll = new LocomotiveScroll();
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const LocomotiveScroll = (await import('locomotive-scroll')).default;
+  //       const locomotiveScroll = new LocomotiveScroll();
   
-        setTimeout(() => {
-          setIsLoading(false);
-          document.body.style.cursor = 'default';
-          window.scrollTo(0, 0);
-        }, 2000);
-      } catch (error) {
-        console.error('Error loading locomotive-scroll:', error);
-      }
-    };
+  //       setTimeout(() => {
+  //         setIsLoading(false);
+  //         document.body.style.cursor = 'default';
+  //         window.scrollTo(0, 0);
+  //       }, 2000);
+  //     } catch (error) {
+  //       console.error('Error loading locomotive-scroll:', error);
+  //     }
+  //   };
   
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
   
   
   return (
-    <main className='border w-screen'>
-      <AnimatePresence mode='wait'>
+    <main className='w-screen'>
+      {/* <AnimatePresence>
         {isLoading && <Preloader />}
-      </AnimatePresence>
+      </AnimatePresence> */}
       <Hero/>
       <About/>
       <Services/>
