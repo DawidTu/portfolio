@@ -101,6 +101,9 @@ const skillData = [
       {
         name: "ReactJS, NextJS",
       },
+      {
+        name: "React Native",
+      },
     ],
   },
   {
